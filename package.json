@@ -1,14 +1,30 @@
 {
   "name": "bicycle",
   "version": "1.0.0",
-  "description": "this is store for bicycle",
+  "description": "web site bicycle",
   "main": "server.js",
   "scripts": {
-    "start":"node server.js",
-    "dev":"nodemon server.js",
-    "train":"nodemon train.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon train.js",
+    "dev": "nodemon server.js",
+    "train": "nodemon train.js"
   },
-  "author": "lucas/Mirzo",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "bootstrap": "^5.3.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "inquirer": "^8.2.6",
+    "moment": "^2.29.4",
+    "mongodb": "^3.2.6",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^3.0.1",
+    "pm2": "^5.3.0",
+    "shelljs": "^0.8.5",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  }
 }
